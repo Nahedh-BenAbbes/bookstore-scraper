@@ -12,4 +12,8 @@ def write_line(line):
         file.write(line)
         file.write('\n')
 
-# WRITE YOUR CODE BELOW THIS LINE
+# WRITE YOUR CODE BELOW THIS LINE  
+
+ def write(line):
+     with open('./books.csv', 'a') as file:
+         file.write(line)  
